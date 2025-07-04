@@ -1,21 +1,48 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './components/Home';
-import About from './components/About';
+import { BrowserRouter, Route, Routes, Navigate} from 'react-router-dom'
+// import Home from './components/Home';
+// import About from './components/About';
+
+// import Login from './Facebook/login';
+// import Register from './Facebook/register';
+
+// import Navigation from './components/Navigation';
+// import Page404 from './components/Page404';
+// import User from './components/User';
+// import Contact from './components/Contact';
+// import Filter from './components/Filter';
+// import Channel from './components/Channel';
+// import Company from './components/Company';
+import Api from './components/api';
 
 function App() {
   return (
     <div className="App">
       
+    {/* <Api /> */}
     <BrowserRouter>
-      <Routes>
-        <Route path='/Home' element = {<Home />} />
-        <Route path='/About' element = {<About />} />
 
+      {/* <Navigation /> */}
+      
+      <Routes>
+        <Route path='/' element = {<Login />} />
+        <Route path='/register' element = {<Register />} /> 
+
+
+        {/* <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/*' element = {<Page404 />} />
+        <Route path='/user/:name' element={<User />}/>
+        <Route path='/filter' element={<Filter />}/>
+        <Route path='/contact/' element={<Contact />}>
+          <Route path='channel' element={<Channel />}/>
+          <Route path='company' element={<Company />}/>
+        </Route> */}
+          
       </Routes>
 
-    </BrowserRouter>
+    </BrowserRouter> 
       
     </div>
   );

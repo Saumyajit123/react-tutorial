@@ -1,0 +1,124 @@
+.Head {
+  text-align: center;
+  color: #0866ff;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* z-index:6; */
+  padding: 5px;
+}
+.boxContainer {
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px lightgrey;
+  z-index: 6;
+  /* padding: 5px; */
+}
+.gridContainer {
+  display: grid;
+  text-align: left;
+  grid-template-columns: auto auto;
+  gap: 4px;
+  /* padding: 5px; */
+}
+
+.gridContainer > div {
+  text-align: left;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+}
+.dob {
+  text-align: left;
+  padding: 2px;
+}
+.dobGrid {
+  display: grid;
+  text-align: left;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+  /* padding: 2px; */
+}
+.gender {
+  text-align: left;
+  padding: 2px;
+}
+.genderGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4px;
+  /* justify-content: space-between; */
+  /* padding: 2px; */
+}
+.gridmobMail {
+  text-align: left;
+  /* display: grid; */
+  /* grid-template-rows: auto; */
+  justify-content: space-between;
+  padding: 5px;
+  width: 96%;
+  /* width: 100%; */
+  /* grid-row-start: 2;
+    grid-row-end: 4; */
+}
+.gridPassword {
+  text-align: left;
+  /* display: grid; */
+  /* grid-template-rows: auto; */
+  justify-content: space-between;
+  padding: 5px;
+  width: 96%;
+}
+.border {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.border input {
+  float: right;
+}
+.border span {
+  float: left;
+}
+.common {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 5px 0px;
+}
+.button {
+  text-align: center;
+  color: white;
+  background-color: #00a400;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px;
+  width: 50%;
+}
+
+.Already {
+  text-align: center;
+  color: #1886f5;
+}
+.main {
+  padding: 8px;
+  border-color: lightgrey;
+}
+
+.dobGrid > select {
+  padding: 5px 2px;
+  border-radius: 5px;
+}
+
+.gridContainer > div > input {
+  padding: 5px 2px;
+}
