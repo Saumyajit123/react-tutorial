@@ -20,7 +20,7 @@ function Login() {
                   placeholder="Email address or phone number"
                 />
                 <input type="password" placeholder="Password" />
-                <button>Log in</button>
+                <button onClick={()=>navigate("/dashboard")}>Log in</button>
               </form>
               <p>Forgotten password?</p>
               <hr />

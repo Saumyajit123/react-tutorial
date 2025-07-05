@@ -14,14 +14,14 @@ function Register() {
             <div class="gridContainer">
               <div>
                 <input
-                  style="padding: 5px 2px;"
+                  style={{padding: "5px 2px"}}
                   type="text"
                   placeholder="First name"
                 />
               </div>
               <div>
                 <input
-                  style="padding: 5px 2px;"
+                  style={{padding: "5px 2px"}}
                   type="text"
                   placeholder="Surname"
                 />
@@ -32,7 +32,7 @@ function Register() {
               <select
                 name="Day"
                 id="day"
-                style="padding: 5px 2px; border-radius: 5px;"
+                style={{padding: "5px 2px", borderRadius: "5px"}}
               >
                 <option>Day</option>
                 <option>1</option>
@@ -42,7 +42,7 @@ function Register() {
               <select
                 name="Month"
                 id="month"
-                style="padding: 5px 2px; border-radius: 5px;"
+                style={{padding: "5px 2px", borderRadius: "5px"}}
               >
                 <option>Month</option>
                 <option>January</option>
@@ -52,7 +52,7 @@ function Register() {
               <select
                 name="Year"
                 id="year"
-                style="padding: 5px 2px; border-radius: 5px;"
+                style={{padding: "5px 2px", borderRadius: "5px"}}
               >
                 <option>Year</option>
                 <option>2025</option>
@@ -79,14 +79,14 @@ function Register() {
               <br />
               <div class="gridmobMail">
                 <input
-                  style="width: 96%; padding: 5px;"
+                  style={{width: "96%", padding: "5px"}}
                   type="tel email"
                   placeholder="Mobile number or email address"
                 />
               </div>
               <div class="gridPassword">
                 <input
-                  style="width: 96%; padding: 5px;"
+                  style={{width: "96%", padding: "5px"}}
                   type="password"
                   placeholder="New password"
                 />
@@ -96,7 +96,7 @@ function Register() {
             <br />
 
             <br />
-            <button class="button" style="width: 50%;">
+            <button class="button" style={{width: "50%"}}>
               Sign up
             </button>
             <Link to='/'><h3 class="Already">Already have an account?</h3></Link>
